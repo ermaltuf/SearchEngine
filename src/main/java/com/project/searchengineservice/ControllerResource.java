@@ -7,14 +7,8 @@ import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 import org.json.JSONObject;
 
-@Path("/hello-world")
-public class HelloResource {
-    @GET
-    @Produces("text/plain")
-    public String hello() {
-        return "Hello, World!";
-    }
-
+@Path("/main-controller")
+public class ControllerResource {
 
     @GET
     @Path("/get/{id}")
