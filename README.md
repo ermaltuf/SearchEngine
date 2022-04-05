@@ -37,7 +37,17 @@ This application will present a web application Search Engine.
 
 3 - Create Table document_id_tbl as data storage
 
+Import this dump file as a test table : [document_id_tbl.csv](/document_id_tbl.csv)
+
+The achived result will be :
+
+![image](document_id_tbl.PNG)
+
+![image](document_id_tbl-properties.PNG)
+
 4 - Create Index Table from document_id_tbl TERMS column to use for FULL TEXT INDEX functions
+
+![image1](Index_table-TERM.PNG)
 
 5 - Create connection with Java using mysql-connection-java dependency on POM.xml
 
