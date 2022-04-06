@@ -67,6 +67,7 @@ The achived result will be :
 ## Application Schema 
 
 
+![image](Diagram-SearchEngine.png)
 
 
 # FULL TEXT INDEX benefits - Algorithm Formula
@@ -93,6 +94,27 @@ Using the TF and IDF values, the relevancy ranking for a document is calculated 
 
 # Test Cases and Examples
 
+Some test case examples from the requests done from a some agent API tester using Jason API Tester Chrome extensions.
+The test are linked in the above document :  [Test Case Examples](/test-case-scrshots)
+
+Please note that in this test can be performed form every Client request technology and there are no restrictions from the service API site.
+
 
 # Running the application
 
+To run the applicaton perform : 
+
+Build / Generate the .war file with the artifacts 
+
+>    mvn clean install 
+
+Deployment used explode functionality used on Intellij IDEA
+On Glassfish server :
+
+>    as-install/bin/asadmin deploy war-name
+
+Apache Tomcat scenario place :
+
+inside-bin/ .war-file
+
+>    service tomcat start
